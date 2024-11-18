@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+   
+    opacity: 100%;
+    text-align: center;
+    background:url(./Bilder/Allgemeines\ wetter.png)
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    height:850px;
+    
+    
+}
+
+.input-box {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.weather-body .location-details, .weather-body .weather-status {
+    margin-bottom: 15px;
+}
+
+
+
+
+.clear {
+    background: url(./Bilder/Klarer\ Himmel.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.cloudy {
+    background: url(./Bilder/Bewölkt.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.rainy {
+    background: url(./Bilder/regnerisch.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+
+.cold {
+    background: url(./Bilder/Kalt\ neu.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.hot {
+    background: url(./Bilder/Warmes\ wetter.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+
+
+
+
+@media (max-width: 600px) {
+    .app-main {
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .input-box {
+        padding: 8px;
+    }
+}
